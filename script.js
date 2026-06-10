@@ -21,26 +21,19 @@ btnStructures.addEventListener('click', () => {
   viewer.src = ztm10Src;
 });
 
-/*************
-//Přiblížení na hotspot
 const modelViewer = document.querySelector('model-viewer');
 const hotspots = document.querySelectorAll('button.hotspot');
 
 hotspots.forEach(button => {
   button.addEventListener('click', () => {
- 
     const position = button.getAttribute('data-position');
-    modelViewer.setAttribute('camera-target', position);
 
-    
+    modelViewer.setAttribute('camera-target', position);
     modelViewer.setAttribute('camera-orbit', '0deg 70deg 1250m');
 
-    // 3) Pro okamžité přiblížení
-    modelViewer.jumpCameraToGoal();
-
-    
-     modelViewer.animateCameraOrbit('0deg 55deg 1000m');
+    if (modelViewer.jumpCameraToGoal) {
+      modelViewer.jumpCameraToGoal();
+    }
   });
 });
-*************/
 
