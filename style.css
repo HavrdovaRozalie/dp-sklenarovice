@@ -1,0 +1,252 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fef9ee;
+  color: #0f0f0f;
+}
+
+header {
+  background: #003049;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0 0 0.5em;
+  font-weight: bold;
+  color: black
+}
+
+h3 {
+  font-size: 13px;
+  margin: 0 0 0.5em;
+  font-weight: normal;
+  color: #808080
+}
+
+p {
+  margin: 0 0 0.1em;
+}
+
+
+p + h3 {
+  margin-top: 0;
+}
+nav a {
+  color: #ecf0f1;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  background-color: #780000; 
+  padding: 1em;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+.nav-container a {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  color: white; 
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-container a:hover {
+  background-color: #C1121F;
+  color: white;
+}
+
+
+.nav-container a.active {
+  background-color: #2c3e50;
+  color: white;
+}
+
+#model {
+  background-color: #FDF0D5; 
+  padding: 2em 1em;
+  border-radius: 10px;
+}
+
+model-viewer {
+  background-color: #500000; 
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+.hotspot {
+  background: white;
+  border: 2px solid #333333;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+        }
+.hotspot[slot="hotspot2"] {
+  background: white;
+  border: 2px solid #333333;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+        }
+
+.hotspot[slot="hotspot3"] {
+  background: white;
+  border: 2px solid #333333;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+        }
+
+.hotspot[slot="hotspot4"] {
+  background: white;
+  border: 2px solid #333333;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+        }
+.hotspot[slot="hotspot5"] {
+  background: white;
+  border: 2px solid #333333;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+        }
+.hotspot[slot="hotspot6"] {
+  background: white;
+  border: 2px solid #333333;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+        }
+
+.annotation {
+  background-color: white;
+  position: absolute;
+  top: -35px;     
+  left: 5px;   
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 0.8em;
+   white-space: nowrap;
+}
+
+
+.model-buttons button {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+
+.model-buttons button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.model-buttons button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+
+#btn-ztm10 {
+  background-color: #780000;
+  color: #ffffff;
+}
+
+#btn-ztm10:hover {
+  background-color: #c0392b;
+}
+
+#btn-SMO5 {
+  background-color: #780000;
+  color: #ffffff;
+}
+
+#btn-SMO5:hover {
+  background-color: #c0392b;
+}
+
+#btn-CO {
+  background-color: #780000;
+  color: #ffffff;
+}
+
+#btn-CO:hover {
+  background-color: #c0392b;
+}
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+.image-gallery img {
+    flex: 1 1 300px; /* minimální šířka, ale flexibilní */
+    max-width: 15%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+.third-image {
+    max-width: 100%; 
+    height: auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+
+

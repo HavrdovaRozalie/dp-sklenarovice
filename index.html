@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diplomová práce – Sklenářovice</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/883896B1-5712-4998-92F3-02573F3A6CCA.PNG?v=1750446756561" type="image/png" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+  <h1>Vizualizace zaniklé obce Sklenářovice</h1>
+  <nav class="nav-container">
+    <a href="#uvod">Úvod</a>
+    <a href="#model">Model Sklenářovického údolí</a>
+    <a href="#projekt">Historie Sklenářovického údolí</a>
+    <a href="#výsledná aplikace">Výsledná aplikace</a>
+    <a href="#kontakt">Kontakt</a> 
+  </nav>
+</header>
+
+
+  <main>
+    <section id="uvod">
+      <h2>Úvod</h2>
+      <p>Vítejte na stránkách diplomové práce věnované rozšířené realitě a zaniklé obci Sklenářovice.</p>
+    </section>
+
+    
+
+    <section id="model">
+  <h2>Model Sklenářovického údolí</h2>
+  <model-viewer 
+  id="SMO5-viewer"
+  src="https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/ModelTerenuMensi_SMO5_domy.glb?v=1749142165687"
+  alt="3D model zaniklé obce Sklenářovice" 
+  camera-controls
+  camera-orbit="0deg 55deg 20000m"
+  ar 
+  ar-modes="webxr scene-viewer quick-look" 
+  shadow-intensity="1"
+  scale="4 4 4"
+  min-camera-orbit="0deg 0deg 10m"
+  max-camera-orbit="360deg 90deg 100000m"
+  style="width: 100%; height: 500px;"
+  interaction-prompt="none"
+  exposure="1">
+    
+    
+  <button class="hotspot" slot="hotspot" data-position="2400m 200m -834m" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" >
+  <span class="annotation">Hostinec v Bystřici</span>
+  </button>
+  <button class="hotspot" slot="hotspot2" data-position="2500m 450m -5270m" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" >
+  <span class="annotation">č.p.1 hostinec</span>
+  </button>
+  <button class="hotspot" slot="hotspot3" data-position="1950m 550m -5720m" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" >
+  <span class="annotation">č.p.51</span>
+  </button>
+  <button class="hotspot" slot="hotspot4" data-position="1460m 550m -6720m" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" >
+  <span class="annotation">č.p.15 škola</span>
+  </button>
+  <button class="hotspot" slot="hotspot5" data-position="1730m 550m -7550m" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" >
+  <span class="annotation">kaplička</span>
+  </button>
+  <button class="hotspot" slot="hotspot6" data-position="3050m 900m -9500m" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" >
+  <span class="annotation">č.p. 37</span>
+  </button>
+  </model-viewer>
+
+      <div class="model-buttons">
+        <button id="btn-ztm10">Základní topografická mapa České republiky 1 : 10 000</button>
+        <button id="btn-CO">Císařské otisky stabilního katastru z roku 1841</button>
+        <button id="btn-SMO5">Státní mapa 1 : 5 000-odvozená</button>
+      </div>
+      
+
+</section>
+    
+    <section id="projekt">
+      <h2>Historie Sklenářovického údolí</h2>
+      <p>První zmínka o osadě Sklenářovice (Blossendorf, později Glasendorf) vzniká v roce 1289 při prodeji části panství hradu Trutnova. Jedná se tak o jednu z nejstarších písemně doložených skláren v českých zemích. Historici se domnívají, že tehdejší sklárna pracovala na jihozápadním svahu Sklenářovického vrchu asi kolem roku 1270. Další zmínky o osadě Glasendorf pocházejí až z 16. století, konkrétně z let 1521 a 1539. Dlouho se právě tyto zápisy považovaly za nejstarší zmínky o osadě a předpokládala se zde existence spíše pozdně středověké nebo renesanční sklárny, podobně jako vývoj dalších skláren v Krkonoších a jejich podhůří, kam se začali ve větším počtu přemísťovat skláři až na počátku 17. století.</p> <h3>[FLOUSEK, Jiří a kol. Krkonoše - příroda, historie, život. Baset, 2007. ISBN 978-80-7340-104-7. ]</h3>
+      <p>Největšího rozmachu se Sklenářovické údolí dočkalo v 16. století, kdy oblast východních Krkonoš zachvátila zlatá horečka. </p>
+      <p>Zlato se ve východních Krkonoších získávalo všemi známými způsoby, rýžováním druhotných náplavů i povrchovou těžbou a hlubinným dobýváním primárních ložisek. Rýžování a těžba zlata probíhala po velmi dlouhou dobu. Rozsah průzkumných, vrtných a těžebních prací na české straně Krkonoš je zcela ojedinělý a vzbuzuje mnoho otázek. Například není dosud známo, kam se ztratilo zlato a hlušina, když se množství vytěžených hornin a zemin odhaduje na přibližně milion tun a hmotnost získaného zlata na minimálně jednu tunu. Počátek intenzivní těžby zlata v oblasti Rýchor nastal v 16. století, což nám dokazují věrohodné historické prameny. V roce 1542 zastavil žacléřský statek a většinu vsí i s doly na Rýchorách společně s jejich budoucími výnosy jistý Kryštof z Gendorfu. Zastavil je majiteli vlčického panství Adamu Zilvárovi. Rostoucí zájem o rýchorská naleziště dokládá listina císaře Ferdinanda I. z roku 1546, kterou byla hornická osada Svoboda pod „zlatými Rýchorami“ povýšena na městys s takovými horními právy, jaká měla i ostatní horní města v Čechách. Ve druhé polovině 16. století se těžba soustředila na jižní svah Rýchor, na obou svazích Bártova lesa, který se nachází na východ od Sklenářovic i v kopcích západně od Mladých Buků.</p> <h3>[FLOUSEK, Jiří a kol. Krkonoše - příroda, historie, život. Baset, 2007. ISBN 978-80-7340-104-7. ]</h3>
+      <p>V roce 1551 císař Ferdinand I. vyhověl žádosti norimberského nákladníka (*podnikatel v těžbě drahých kovů) Mathese Ebnera a prodloužil horníkům rýchorských dolů horní svobodu o dva roky nad rámec původně sedmileté lhůty. Současně osvobodil provozovatele od placení desátku na deset let, přičemž toto privilegium postupně prodlužoval až k definitivnímu odložení desátku císařem Rudolfem II. roku 1580. Až do vypuknutí třicetileté války v roce 1618 byla v Bártově lese udržována pravidelná těžba. Podle zprávy, kterou si roku 1633 vyžádal Albrecht z Valdštejna, víme, že práce ustaly – a to především proto, že obec ze štoly, kterou razila na vlastní náklad, získávala jen chudou rudu.</p> <h3>[FLOUSEK, Jiří a kol. Krkonoše - příroda, historie, život. Baset, 2007. ISBN 978-80-7340-104-7. ]</h3>
+      <p>Po třicetileté válce byla těžba obnovena, v roce 1648 císař Ferdinand III. potvrdil Svobodě stará horní privilegia a hlavním nákladníkem se stal hrabě Weiher, nový majitel vlčického panství.</p> <h3>[FLOUSEK, Jiří a kol. Krkonoše - příroda, historie, život. Baset, 2007. ISBN 978-80-7340-104-7. ] </h3>
+      <p>Sklenářovice postihla 15. února 1655 nešťastná událost, kdy z úbočí Rýchor sjela do osady lavina, která strhla dvě Sklenářovické chalupy. Šlo o první lavinu, která byla na území Krkonoš písemně zaznamenaná. Při této tragédii zahynulo osm osob.</p> <h3>[Freiheit. Online. © 2009. Dostupné z: http://www.freiheit.cz/. [cit. 2025-05-13]. ] </h3>
+      <p>Od roku 1664 drtila rubaninu nová stoupa, ovšem bez očekávaného zisku z vytěženého zlata, následkem toho byly doly počátkem 18. století opět zpustlé. O obnovu se pokusil kníže Schwarzenberg roku 1764, ovšem analýza rudy ukázala pouze nízký obsah stříbra a stopové množství zlata, proto roku 1772 dobývání natrvalo skončilo. V současnosti jsou doly předmětem zájmu historiků a geologů. Zbytky hornické práce v podobě hlubokých rýh lze pozorovat na místě dodnes.</p> <h3>[FLOUSEK, Jiří a kol. Krkonoše - příroda, historie, život. Baset, 2007. ISBN 978-80-7340-104-7. ]</h3>
+      <p>Před druhou světovou válkou měla obec vlastní samosprávu, školu, mlýn a dva hostince. Ve 42 domech žilo 220 obyvatel, živících se především zemědělstvím. Obec lze v té době považovat za etnicky německou, jak tomu název Glasendorf napovídá, kvůli čemuž byli obyvatelé vesnice po druhé světové válce odsunuti do Německa. V roce 1946 bylo 12. srpna veškeré obyvatelstvo přemístěno do sběrného tábora v Kalné Vodě a následně vysídleno do Německa.</p> <h3>[Freiheit. Online. © 2009. Dostupné z: http://www.freiheit.cz/. [cit. 2025-05-13]. ]</h3>
+      <p>Opuštěná stavení postupně chátrala, z neznámých důvodu nebyly Sklenářovice nabídnuty na prodej chalupářům, nejspíše existovala obava, že by nikdo nechtěl nahradit místo předešlých obyvatel a žít v nevlídných horských podmínkách skromným životem hospodáře.</p> <h3>[Krkonoše - Jizerské hory. Online. © 2000-2024. Dostupné z: https://krkonose.krnap.cz/apex/f?p=104:1::::::. [cit. 2025-05-14]. ]</h3>
+      <p>Zlomovým okamžikem pro chátrající stavení se stal den 30. 1. 1956, ten den vyšel nejdříve nevinně vypadající výnos ministerstva místního hospodářství o demolicích opuštěného nemovitého majetku, prohlašovaným cílem bylo upravení krajiny odstraněním rozpadajících se objektů, které mohly být i zdrojem nebezpečí pro obyvatele. Tím byla spuštěna největší demoliční akce v novodobých dějinách, která trvala od roku 1959 do roku 1960. V celé Československé republice bylo zničeno ženijní jednotkou československé armády desetitisíce objektů pomocí trhavin a vojenské techniky. V tehdejším trutnovském okrese bylo srovnáno se zemí celkem 254 objektů. Na památkovou ochranu v té době nebyl brán ohled, proto se demolici bohužel nevyhnuly ani zámky, kostely či kaple, které byly bez jakékoli dokumentace odstřeleny. V oblasti Krkonoš nebyl naštěstí v tomto období zbořen žádný kostel, demolice však postihla několik kaplí.</p> <h3>[FLOUSEK, Jiří a kol. Krkonoše - příroda, historie, život. Baset, 2007. ISBN 978-80-7340-104-7. ; Krkonoše - Jizerské hory. Online. © 2000-2024. Dostupné z: https://krkonose.krnap.cz/apex/f?p=104:1::::::. [cit. 2025-05-14]. ]</h3>
+      <p>Ze Sklenářovického údolí se nám bohužel zachovalo minimum písemných i obrazových materiálů, většina byla zničena nebo odvezena v důsledku odsunu německého obyvatelstva po druhé světové válce.</p>
+      <p> </p>
+      <p> </p>
+      <p> </p>
+      
+    </section>
+
+    
+    <section id="výsledná aplikace">
+  <h2>Výsledná aplikace</h2>
+  <p>Výsledná aplikace se jmenuje Sklenářovice-AR a můžete jí stáhnout na <a href="https://play.google.com/store/apps/details?id=com.GeomatikaCVUT.SklenoviceAR" target="_blank">Google Play</a>.</p>
+      
+      <section class="extra-info">
+    <p></p>
+    
+  </section>
+      
+    <div class="third-image">
+    <img src="https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/Sn%C3%ADmek%20obrazovky%202025-06-20%20211536.png?v=1750446947496">
+    </div>
+
+    <div class="image-gallery">
+    <img src="https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/Screenshot_20250617_204849_Video%20Player.jpg?v=1750447869748" alt="Ukázka 3 aplikace Sklenářovice-AR">
+    <img src="https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/Screenshot_20250618_141959_ImmersalZkouska.jpg?v=1750447866222" alt="Ukázka 2 aplikace Sklenářovice-AR">
+    <img src="https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/Screenshot_20250618_143534_ImmersalZkouska.jpg?v=1750447851713" alt="Ukázka 1 aplikace Sklenářovice-AR">
+    <img src="https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/Screenshot_20250618_142015_ImmersalZkouska.jpg?v=1750447863842" alt="Ukázka 4 aplikace Sklenářovice-AR">
+    <img src="https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/Screenshot_20250622_094244_Sklenovice%20-%20AR.jpg?v=1750578733809" alt="Ukázka 5 aplikace Sklenářovice-AR">
+    <img src="https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/Screenshot_20250618_142506_ImmersalZkouska.jpg?v=1750447860268" alt="Ukázka 6 aplikace Sklenářovice-AR">
+    </div>
+      
+    
+     </section>
+    
+    
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Rozálie Havrdová<br />Email: <a href="mailto:havrdroz@cvut.cz">havrdroz@cvut.cz</a></p>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>&copy; 2025 Rozálie Havrdová</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
