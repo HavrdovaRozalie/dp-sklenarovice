@@ -1,4 +1,4 @@
-alert("script.js funguje");
+
 
 const SMO5Src = 'ModelTerenuMensi_SMO5_domy.glb';
 const ztm10Src = 'ModelTerenuMensiZTM10.glb';
