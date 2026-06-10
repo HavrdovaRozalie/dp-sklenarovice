@@ -1,5 +1,5 @@
-const SMO5Src = 'https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/ModelTerenuMensi.glb?v=1746887425233';
-const ztm10Src = 'https://cdn.glitch.global/126c52b3-1b5d-4f58-bad5-9b89eae68738/ModelTerenuMensiZTM10.glb?v=1748164981881';
+const SMO5Src = 'ModelTerenuMensi.glb';
+const ztm10Src = 'ModelTerenuMensiZTM10.glb';
 const COSrc = 'https://cdn.glitch.me/126c52b3-1b5d-4f58-bad5-9b89eae68738/CO.glb?v=1748514845719'
 
 const viewer = document.getElementById('SMO5-viewer');
