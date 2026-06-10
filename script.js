@@ -1,3 +1,5 @@
+alert("script.js funguje");
+
 const SMO5Src = 'ModelTerenuMensi_SMO5_domy.glb';
 const ztm10Src = 'ModelTerenuMensiZTM10.glb';
 const COSrc = 'CO.glb';
@@ -19,6 +21,7 @@ btnStructures.addEventListener('click', () => {
   viewer.src = ztm10Src;
 });
 
+/*************
 //Přiblížení na hotspot
 const modelViewer = document.querySelector('model-viewer');
 const hotspots = document.querySelectorAll('button.hotspot');
@@ -39,3 +42,5 @@ hotspots.forEach(button => {
      modelViewer.animateCameraOrbit('0deg 55deg 1000m');
   });
 });
+*************/
+
